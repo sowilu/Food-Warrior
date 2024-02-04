@@ -26,7 +26,8 @@ public class Spawner : MonoBehaviour
 
             var randomFruit = fruits[Random.Range(0, fruits.Count)];
             
-            GameObject fruit = Instantiate(randomFruit, transform.position, Quaternion.identity);
+            var fruit = Instantiate(randomFruit, transform.position, Quaternion.identity);
+            Destroy(fruit, 5);
 
             var randomAngle = Vector3.right * Random.Range(-0.3f, 0.3f);
             fruit.GetComponent<Rigidbody>().AddForce((Vector3.up + randomAngle) * throwForce);

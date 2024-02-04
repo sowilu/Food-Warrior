@@ -15,9 +15,12 @@ public class Cursor : MonoBehaviour
     }
     
 
+
     private void OnCollisionEnter(Collision collision){
 
         audio.PlayOneShot(slashSound);
+
+        ScoreCounter.Instance.Fruits++;
 
         Destroy(collision.gameObject); 
     }

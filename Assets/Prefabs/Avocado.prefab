@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1832378849460895161}
   - component: {fileID: 5227968712860447943}
   - component: {fileID: 6443251367521080123}
-  - component: {fileID: -3501476453769116953}
+  - component: {fileID: -2411201712525512697}
   m_Layer: 0
   m_Name: Avocado
   m_TagString: Untagged
@@ -84,7 +84,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.14
   m_Center: {x: 0, y: 0.08, z: 0}
---- !u!114 &-3501476453769116953
+--- !u!114 &-2411201712525512697
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -93,9 +93,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5649212796604831736}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad9e186b71ccb3d4d9a1ca04a41c76ac, type: 3}
+  m_Script: {fileID: 11500000, guid: 8b7b6eb151b476148a2d6f02bfd77565, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 100
 --- !u!1001 &1824610496200498704
 PrefabInstance:
   m_ObjectHideFlags: 0
