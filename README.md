@@ -1,7 +1,7 @@
 # Food-Warrior
  Slice, dice, and conquer as a Food Warrior in the ultimate culinary challenge of Froot Ninja Copy!
  
-https://github.com/sowilu/Food-Warrior/assets/28844061/8f5be339-2889-4e87-84fd-3ff38375e8eb
+https://github.com/sowilu/Food-Warrior/assets/28844061/52f90472-9535-436f-a08e-28807995756a
 
 ## Personal goal with this project:
 - Practice juicy wfx
