@@ -160,7 +160,7 @@ TrailRenderer:
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 0.7
+    widthMultiplier: 0.5
     widthCurve:
       serializedVersion: 2
       m_Curve:
@@ -292,7 +292,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 88b3e2cb9a1a49b4fa75a71dd26fb96d, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
+      propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 63faf365af6fbcf4db481f887d053f66, type: 2}
     - target: {fileID: 919132149155446097, guid: 88b3e2cb9a1a49b4fa75a71dd26fb96d, type: 3}
@@ -378,7 +378,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 88b3e2cb9a1a49b4fa75a71dd26fb96d, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
+      propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 63faf365af6fbcf4db481f887d053f66, type: 2}
     - target: {fileID: 919132149155446097, guid: 88b3e2cb9a1a49b4fa75a71dd26fb96d, type: 3}
